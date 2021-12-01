@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fireandice"
+    tools:context=".TestYourself">
+
+    <RadioButton
+        android:id="@+id/radioButtonList2Test"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="64dp"
+        android:background="@drawable/button_listselect"
+        android:text="@string/list_2"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <RadioButton
+        android:id="@+id/radioButtonList1Test"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_listselect"
+        android:checked="true"
+        android:text="@string/list_1"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toStartOf="@+id/radioButtonList2Test"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/radioButtonList2Test" />
+
+    <RadioButton
+        android:id="@+id/radioButtonList3Test"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_listselect"
+        android:text="@string/list_3"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/radioButtonList2Test"
+        app:layout_constraintTop_toTopOf="@+id/radioButtonList2Test" />
+
+    <Button
+        android:id="@+id/buttonGuessTranslated"
+        android:layout_width="175dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
+        android:background="@drawable/button_guessphrases"
+        android:text="@string/guess_phrases"
+        android:textColor="#000000"
+        app:backgroundTint="#FFFFFF"
+        app:backgroundTintMode="multiply"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonPairUpPhrases"
+        android:layout_width="175dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/button_pairup"
+        android:text="@string/pair_up_phrases"
+        android:textColor="#000000"
+        app:backgroundTint="#FFFFFF"
+        app:backgroundTintMode="multiply"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonGuessTranslated" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="96dp"
+        android:scaleX="4"
+        app:layout_constraintBottom_toBottomOf="@+id/switchGuessing"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textViewTypeChoose"
+        app:srcCompat="@drawable/pasujechyba" />
+
+    <Switch
+        android:id="@+id/switchGuessing"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:scaleX="1.25"
+        android:scaleY="1.25"
+        android:textOff="You will be guessing in the other language."
+        android:textOn="You will be guessing in your native language."
+        app:layout_constraintBottom_toTopOf="@+id/radioButtonList2Test"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/type_in_foreign_language"
+        app:layout_constraintEnd_toStartOf="@+id/switchGuessing"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/switchGuessing" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/type_in_your_native_language"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/switchGuessing"
+        app:layout_constraintTop_toTopOf="@+id/switchGuessing" />
+
+    <Button
+        android:id="@+id/buttonMemory"
+        android:layout_width="175dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/button_memory"
+        android:text="@string/memory"
+        android:textColor="#000000"
+        app:backgroundTint="#FFFFFF"
+        app:backgroundTintMode="multiply"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonPairUpPhrases" />
+
+    <TextView
+        android:id="@+id/textViewTypeChoose"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="@string/typeChoose"
+        app:layout_constraintBottom_toTopOf="@+id/switchGuessing"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

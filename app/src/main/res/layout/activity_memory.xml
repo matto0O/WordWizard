@@ -1,0 +1,458 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/panel"
+    tools:context=".Memory">
+
+    <Button
+        android:id="@+id/imageView16"
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:background="@drawable/emoji"
+        app:backgroundTint="@color/white"
+        app:backgroundTintMode="multiply"
+        app:cornerRadius="50dp"
+        app:layout_constraintBottom_toBottomOf="@+id/memory13"
+        app:layout_constraintEnd_toEndOf="@+id/memory16"
+        app:layout_constraintStart_toStartOf="@+id/memory16"
+        app:layout_constraintTop_toTopOf="@+id/memory13" />
+
+    <Button
+        android:id="@+id/imageView15"
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:background="@drawable/emoji"
+        app:backgroundTint="@color/white"
+        app:backgroundTintMode="multiply"
+        app:cornerRadius="50dp"
+        app:layout_constraintBottom_toBottomOf="@+id/memory13"
+        app:layout_constraintEnd_toEndOf="@+id/memory15"
+        app:layout_constraintStart_toStartOf="@+id/memory15"
+        app:layout_constraintTop_toTopOf="@+id/memory13" />
+
+    <Button
+        android:id="@+id/imageView14"
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:background="@drawable/emoji"
+        app:backgroundTint="@color/white"
+        app:backgroundTintMode="multiply"
+        app:cornerRadius="50dp"
+        app:layout_constraintBottom_toBottomOf="@+id/memory13"
+        app:layout_constraintEnd_toEndOf="@+id/memory14"
+        app:layout_constraintStart_toStartOf="@+id/memory14"
+        app:layout_constraintTop_toTopOf="@+id/memory13" />
+
+    <Button
+        android:id="@+id/imageView13"
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:background="@drawable/emoji"
+        app:backgroundTint="@color/white"
+        app:backgroundTintMode="multiply"
+        app:cornerRadius="50dp"
+        app:layout_constraintBottom_toBottomOf="@+id/memory13"
+        app:layout_constraintEnd_toEndOf="@+id/memory1"
+        app:layout_constraintStart_toStartOf="@+id/memory1"
+        app:layout_constraintTop_toTopOf="@+id/memory13" />
+
+    <Button
+        android:id="@+id/imageView12"
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:background="@drawable/emoji"
+        app:backgroundTint="@color/white"
+        app:backgroundTintMode="multiply"
+        app:cornerRadius="50dp"
+        app:layout_constraintBottom_toBottomOf="@+id/memory9"
+        app:layout_constraintEnd_toEndOf="@+id/memory12"
+        app:layout_constraintStart_toStartOf="@+id/memory12"
+        app:layout_constraintTop_toTopOf="@+id/memory9" />
+
+    <Button
+        android:id="@+id/imageView11"
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:background="@drawable/emoji"
+        app:backgroundTint="@color/white"
+        app:backgroundTintMode="multiply"
+        app:cornerRadius="50dp"
+        app:layout_constraintBottom_toBottomOf="@+id/memory9"
+        app:layout_constraintEnd_toEndOf="@+id/memory11"
+        app:layout_constraintStart_toStartOf="@+id/memory11"
+        app:layout_constraintTop_toTopOf="@+id/memory9" />
+
+    <Button
+        android:id="@+id/imageView10"
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:background="@drawable/emoji"
+        app:backgroundTint="@color/white"
+        app:backgroundTintMode="multiply"
+        app:cornerRadius="50dp"
+        app:layout_constraintBottom_toBottomOf="@+id/memory9"
+        app:layout_constraintEnd_toEndOf="@+id/memory10"
+        app:layout_constraintStart_toStartOf="@+id/memory10"
+        app:layout_constraintTop_toTopOf="@+id/memory9" />
+
+    <Button
+        android:id="@+id/imageView9"
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:background="@drawable/emoji"
+        app:backgroundTint="@color/white"
+        app:backgroundTintMode="multiply"
+        app:cornerRadius="50dp"
+        app:layout_constraintBottom_toBottomOf="@+id/memory9"
+        app:layout_constraintEnd_toEndOf="@+id/memory1"
+        app:layout_constraintStart_toStartOf="@+id/memory1"
+        app:layout_constraintTop_toTopOf="@+id/memory9" />
+
+    <Button
+        android:id="@+id/imageView8"
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:background="@drawable/emoji"
+        app:backgroundTint="@color/white"
+        app:backgroundTintMode="multiply"
+        app:cornerRadius="50dp"
+        app:layout_constraintBottom_toBottomOf="@+id/memory5"
+        app:layout_constraintEnd_toEndOf="@+id/memory8"
+        app:layout_constraintStart_toStartOf="@+id/memory8"
+        app:layout_constraintTop_toTopOf="@+id/memory5" />
+
+    <Button
+        android:id="@+id/imageView7"
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:background="@drawable/emoji"
+        app:backgroundTint="@color/white"
+        app:backgroundTintMode="multiply"
+        app:cornerRadius="50dp"
+        app:layout_constraintBottom_toBottomOf="@+id/memory5"
+        app:layout_constraintEnd_toEndOf="@+id/memory7"
+        app:layout_constraintStart_toStartOf="@+id/memory7"
+        app:layout_constraintTop_toTopOf="@+id/memory5" />
+
+    <Button
+        android:id="@+id/imageView6"
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:background="@drawable/emoji"
+        app:backgroundTint="@color/white"
+        app:backgroundTintMode="multiply"
+        app:cornerRadius="50dp"
+        app:layout_constraintBottom_toBottomOf="@+id/memory5"
+        app:layout_constraintEnd_toEndOf="@+id/memory6"
+        app:layout_constraintStart_toStartOf="@+id/memory6"
+        app:layout_constraintTop_toTopOf="@+id/memory5" />
+
+    <Button
+        android:id="@+id/imageView5"
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:background="@drawable/emoji"
+        app:backgroundTint="@color/white"
+        app:backgroundTintMode="multiply"
+        app:cornerRadius="50dp"
+        app:layout_constraintBottom_toBottomOf="@+id/memory5"
+        app:layout_constraintEnd_toEndOf="@+id/memory1"
+        app:layout_constraintStart_toStartOf="@+id/memory1"
+        app:layout_constraintTop_toTopOf="@+id/memory5" />
+
+    <Button
+        android:id="@+id/imageView4"
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:background="@drawable/emoji"
+        app:backgroundTint="@color/white"
+        app:backgroundTintMode="multiply"
+        app:cornerRadius="50dp"
+        app:layout_constraintBottom_toBottomOf="@+id/memory1"
+        app:layout_constraintEnd_toEndOf="@+id/memory4"
+        app:layout_constraintStart_toStartOf="@+id/memory4"
+        app:layout_constraintTop_toTopOf="@+id/memory1" />
+
+    <Button
+        android:id="@+id/imageView3"
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:background="@drawable/emoji"
+        app:backgroundTint="@color/white"
+        app:backgroundTintMode="multiply"
+        app:cornerRadius="50dp"
+        app:layout_constraintBottom_toBottomOf="@+id/memory3"
+        app:layout_constraintEnd_toEndOf="@+id/memory3"
+        app:layout_constraintStart_toStartOf="@+id/memory3"
+        app:layout_constraintTop_toTopOf="@+id/memory3" />
+
+    <Button
+        android:id="@+id/imageView2"
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:background="@drawable/emoji"
+        app:backgroundTint="@color/white"
+        app:backgroundTintMode="multiply"
+        app:cornerRadius="50dp"
+        app:layout_constraintBottom_toBottomOf="@+id/memory2"
+        app:layout_constraintEnd_toEndOf="@+id/memory2"
+        app:layout_constraintStart_toStartOf="@+id/memory2"
+        app:layout_constraintTop_toTopOf="@+id/memory2" />
+
+    <Button
+        android:id="@+id/imageView1"
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:background="@drawable/emoji"
+        app:backgroundTint="@color/white"
+        app:backgroundTintMode="multiply"
+        app:cornerRadius="50dp"
+        app:layout_constraintBottom_toBottomOf="@+id/memory1"
+        app:layout_constraintEnd_toEndOf="@+id/memory1"
+        app:layout_constraintStart_toStartOf="@+id/memory1"
+        app:layout_constraintTop_toTopOf="@+id/memory1" />
+
+    <TextView
+        android:id="@+id/memory6"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:background="@drawable/backgroundemoji"
+        android:breakStrategy="high_quality"
+        android:gravity="center"
+        android:text="Memo6"
+        android:textAlignment="center"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="@+id/memory2"
+        app:layout_constraintTop_toTopOf="@+id/memory5"
+        app:maxLines="2" />
+
+    <TextView
+        android:id="@+id/memory10"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:background="@drawable/backgroundemoji"
+        android:breakStrategy="high_quality"
+        android:gravity="center"
+        android:text="Memo10"
+        android:textAlignment="center"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="@+id/memory6"
+        app:layout_constraintTop_toTopOf="@+id/memory9"
+        app:maxLines="2" />
+
+    <TextView
+        android:id="@+id/memory8"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="64dp"
+        android:background="@drawable/backgroundemoji"
+        android:breakStrategy="high_quality"
+        android:gravity="center"
+        android:text="Memo8"
+        android:textAlignment="center"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.9"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/memory4"
+        app:maxLines="2" />
+
+    <TextView
+        android:id="@+id/memory12"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="64dp"
+        android:background="@drawable/backgroundemoji"
+        android:breakStrategy="high_quality"
+        android:gravity="center"
+        android:text="Memo12"
+        android:textAlignment="center"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.9"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/memory8"
+        app:maxLines="2" />
+
+    <TextView
+        android:id="@+id/memory1"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:background="@drawable/backgroundemoji"
+        android:breakStrategy="high_quality"
+        android:gravity="center"
+        android:text="Memo1"
+        android:textAlignment="center"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/memory4"
+        app:maxLines="2" />
+
+    <TextView
+        android:id="@+id/memory5"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:background="@drawable/backgroundemoji"
+        android:breakStrategy="high_quality"
+        android:gravity="center"
+        android:text="Memo5"
+        android:textAlignment="center"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="@+id/memory1"
+        app:layout_constraintTop_toTopOf="@+id/memory8"
+        app:maxLines="2" />
+
+    <TextView
+        android:id="@+id/memory9"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:background="@drawable/backgroundemoji"
+        android:breakStrategy="high_quality"
+        android:gravity="center"
+        android:text="Memo9"
+        android:textAlignment="center"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="@+id/memory5"
+        app:layout_constraintTop_toTopOf="@+id/memory12"
+        app:maxLines="2" />
+
+    <TextView
+        android:id="@+id/memory2"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:background="@drawable/backgroundemoji"
+        android:gravity="center"
+        android:text="Memo2"
+        android:textAlignment="center"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toStartOf="@+id/memory4"
+        app:layout_constraintHorizontal_bias="0.15"
+        app:layout_constraintStart_toEndOf="@+id/memory1"
+        app:layout_constraintTop_toTopOf="@+id/memory1"
+        app:maxLines="2" />
+
+    <TextView
+        android:id="@+id/memory3"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:background="@drawable/backgroundemoji"
+        android:gravity="center"
+        android:text="Memo3"
+        android:textAlignment="center"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toStartOf="@+id/memory4"
+        app:layout_constraintHorizontal_bias="0.85"
+        app:layout_constraintStart_toEndOf="@+id/memory1"
+        app:layout_constraintTop_toTopOf="@+id/memory4"
+        app:maxLines="2" />
+
+    <TextView
+        android:id="@+id/memory7"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:background="@drawable/backgroundemoji"
+        android:breakStrategy="high_quality"
+        android:gravity="center"
+        android:text="Memo7"
+        android:textAlignment="center"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="@+id/memory3"
+        app:layout_constraintTop_toTopOf="@+id/memory8"
+        app:maxLines="2" />
+
+    <TextView
+        android:id="@+id/memory11"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:background="@drawable/backgroundemoji"
+        android:breakStrategy="high_quality"
+        android:gravity="center"
+        android:text="Memo11"
+        android:textAlignment="center"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="@+id/memory7"
+        app:layout_constraintTop_toTopOf="@+id/memory12"
+        app:maxLines="2" />
+
+    <TextView
+        android:id="@+id/memory13"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:background="@drawable/backgroundemoji"
+        android:breakStrategy="high_quality"
+        android:gravity="center"
+        android:text="Memo13"
+        android:textAlignment="center"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="@+id/memory9"
+        app:layout_constraintTop_toTopOf="@+id/memory16"
+        app:maxLines="2" />
+
+    <TextView
+        android:id="@+id/memory14"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:background="@drawable/backgroundemoji"
+        android:breakStrategy="high_quality"
+        android:gravity="center"
+        android:text="Memo14"
+        android:textAlignment="center"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="@+id/memory10"
+        app:layout_constraintTop_toTopOf="@+id/memory13"
+        app:maxLines="2" />
+
+    <TextView
+        android:id="@+id/memory15"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:background="@drawable/backgroundemoji"
+        android:breakStrategy="high_quality"
+        android:gravity="center"
+        android:text="Memo15"
+        android:textAlignment="center"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="@+id/memory11"
+        app:layout_constraintTop_toTopOf="@+id/memory16"
+        app:maxLines="2" />
+
+    <TextView
+        android:id="@+id/memory16"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="64dp"
+        android:background="@drawable/backgroundemoji"
+        android:breakStrategy="high_quality"
+        android:gravity="center"
+        android:text="Memo16"
+        android:textAlignment="center"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.9"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/memory12"
+        app:maxLines="2" />
+
+    <TextView
+        android:id="@+id/memory4"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="64dp"
+        android:background="@drawable/backgroundemoji"
+        android:breakStrategy="high_quality"
+        android:gravity="center"
+        android:text="Memo4"
+        android:textAlignment="center"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.9"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:maxLines="2" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
